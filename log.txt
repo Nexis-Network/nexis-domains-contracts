@@ -1,0 +1,32 @@
+deploying "LegacyENSRegistry" (tx: 0x29e17a9f0b159645948ea5383d4003494e05bba812d8822398b0bc6964ae3385)...: deployed at 0x72823022721B5B56aB01ECA31c0db042512Ce61c with 740452 gas
+deploying "ENSRegistry" (tx: 0xa3bd97accd4f072ca07a46e4877e532869b0fbf7b6ad23e86f312edabd3f20d1)...: deployed at 0x2Ce4F7E93ae1B5078c49223eA94bdcb763B90Bc5 with 897754 gas
+deploying "OwnedResolver" (tx: 0x37f7f7a7a18306cadd8dae7b76568274599593e77fef60fe907da43dc3ae13a2)...: deployed at 0x1377D16Ca0569881b1259804Cf4f2E92e10156F9 with 2356830 gas
+deploying "BaseRegistrarImplementation" (tx: 0xb3051df13d8f9ec4c73a5e062211319a725c81619cc54e2a9c0e5142a66d9e9f)...: deployed at 0x0f50dFCb89cbDDaBc287c7c444fE2b41b3561FB3 with 2129792 gas
+base.address:  0x0f50dFCb89cbDDaBc287c7c444fE2b41b3561FB3
+Waiting on 0 transactions setting base registrar
+deploying "DummyOracle" (tx: 0x54de0bce2ff45407b064683ba9527bdd9483011533841c9cc2252e1db8005ae4)...: deployed at 0x449A4886144C8D322FABe368a9E46Dc6ea4b429E with 111665 gas
+deploying "StablePriceOracle" (tx: 0x8ca5a5d87adb74e4f09047129f89ad304c97e20008a63ccd8294d29d820a5347)...: deployed at 0x6E1815b5Fc4BF8ccdCd946fEA87DDE85AeCA7503 with 1064057 gas
+deploying "ETHRegistrarController" (tx: 0x800fff478dc0c485e140c4807621d4ba584671a953e43e31ad859aee187efeed)...: deployed at 0x5C5Ed080eD8518944566dC66b41b6BA3D23FA93E with 1814212 gas
+Waiting on settings to take place 0
+deploying "PublicResolver" (tx: 0x8aa6e011fd7bbefb7543ae0a727b427c3bd27f4fa92ee1803b61cfc60e919006)...: deployed at 0x9eF1a89d0783164531d153fcb0c2AbD60515c74e with 2587612 gas
+Waiting on settings to take place on resolvers 4
+Waiting on settings to take place of reverse registrar 2
+deploying "RSASHA1Algorithm" (tx: 0xa8937a3ee21240388861c67a1f62c11337893c57942d1c012b6505da997d29c6)...: deployed at 0x7665Abc6CCfB179Dfa3411Fa478C29760bD3cA73 with 803850 gas
+deploying "RSASHA256Algorithm" (tx: 0xfae876eda71f83d7c460b5141b585310ebd91c80f5052a72dbf04b69a522461a)...: deployed at 0x038Ea802d55e63A628eb39958cF158309C1988Ee with 478262 gas
+deploying "P256SHA256Algorithm" (tx: 0xfce2c379d793c6930720edb69d4c435d4d08a5471d8ff506b0ec73aa997ee2b7)...: deployed at 0x895b9efca5e4Cc61a864a3D7BCf55009eFC3b294 with 1013169 gas
+deploying "SHA1Digest" (tx: 0x0645297262dcfb72a414b575527c99a1e8c63a7abe2e0e2c996a497e867810c7)...: deployed at 0x45c9888f5cD59f60206D148B10A253c946368a21 with 536878 gas
+deploying "SHA256Digest" (tx: 0x962a01d2d07da4a982c28998835345e301d4b2a220eb864585c302c952d610a6)...: deployed at 0x33cDFDfB20e05E68B44B80e15cbE9720faFAa0a9 with 209402 gas
+deploying "SHA1NSEC3Digest" (tx: 0x6372af8130c3c2475b56384bdc96ac7b3e863b84c64590861b34c5e309b11aa8)...: deployed at 0xAB57b1A1aA51C27EAEc67a325107ec282eAc5AfF with 752907 gas
+deploying "DNSSECImpl" (tx: 0xcd6cec6a36c922356752fd2deac3a0b3b7107482a1cdbc9cafa185d53a3e0801)...: deployed at 0xD54858012ca971b2112d19b17C2C7867c602775B with 3170588 gas
+Waiting on 7 transactions setting DNSSEC parameters
+deploying "TLDPublicSuffixList" (tx: 0xc610b57a4b4b95af2a75928db73524d8396b9876f0a27491d7623a97d7668939)...: deployed at 0xD9755B4D484bae70449721c1FCE4839CF7EC0daf with 174235 gas
+deploying "DNSRegistrar" (tx: 0xa597223dcc32a738d284b52e9e1b63bb4388b02ce90698c20ebebd5d2328e4b9)...: deployed at 0x7847c27eD4229EAc4dE0a6D431AeD020C219CE1b with 2153494 gas
+deploying "Root" (tx: 0x7835f5238440affe2f12da7ed100b0fbf36dfa2d8610b639b92c5fd4b061c474)...: deployed at 0x407694242455762efeb7Ae021Eb9Fe4831f009ba with 664120 gas
+Setting owner of root node to root contract (tx: 0xf4a39ab30f2fe0b13aaeb95da2bb84488818fc2052cf35f301b8234e8f0dfe9f)...
+Transferring root ownership to final owner (tx: 0x449a2cc1db961fef6a056e4e4af24a4eed1b52f864a6b6b0ebd98a4f56c94eb9)...
+Setting final owner as controller on root contract (tx: 0x6a5be8e0fc62da6ee766dd045b68f110fed6dc521ffc06c660eab5eea7d8d6fe)...
+reusing "ReverseRegistrar" at 0x474d4E030d1a6F836d8edbe7c401ef77f01bca17
+Waiting on settings to take place on reverse-registrar 0
+deploying "DefaultReverseResolver" (tx: 0x71855c493067f7caf4e6e06d66979ba763f31f4f6ab22bf152be8086c00fe965)...: deployed at 0x25e2379f9572224D53B198c0289782AAe16Cc199 with 418853 gas
+baseRegistrar.address:  0x0f50dFCb89cbDDaBc287c7c444fE2b41b3561FB3
+Waiting on settings to take place on reverse-registrar 2
