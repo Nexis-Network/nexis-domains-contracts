@@ -25,7 +25,7 @@ contract NameWrapper is
     mapping(bytes32 => bytes) public override names;
 
     bytes32 private constant ETH_NODE =
-        0x63e502e31ec5d360231175e3d332579960a6f457bfbfe25b7fc8fb6aef8b351b;
+        0x2a352d9e0a34379eaea3895703a0363081036f167bd1a80a7716143e979cdeaa;
     bytes32 private constant ROOT_NODE =
         0x0000000000000000000000000000000000000000000000000000000000000000;
 
